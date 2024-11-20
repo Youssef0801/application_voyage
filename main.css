@@ -1,0 +1,113 @@
+html {
+    font-size: 100.5%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#5c4514;
+    color: #2B59C3;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #043433;
+    color: #FFFFFF;
+}
+
+header .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style:none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voyage {
+    text-align: center;
+    padding: 50px;
+    background-image: url('kyoto.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.voyage h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+.voyage p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+
+}
+
+.voyage .cta {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2E8B57;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.voyage .cta:hover {
+    background-color: #226644;
+    transform: scale(1.1); 
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+.feature {
+    text-align: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #043433;
+    color: #FFFFFF;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #a090eb;
+}
+footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+.feature img {
+    transition: transform 0.3s ease;
+}
+
+.feature img:hover {
+    transform: scale(1.1);
+}
